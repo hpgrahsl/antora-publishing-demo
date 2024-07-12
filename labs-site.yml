@@ -6,7 +6,7 @@ output:
 
 site:
   title: Decodable Labs
-  url: https://.github.io/hpgrahsl/
+  url: https://hpgrahsl.github.io/antora-publishing-demo/
   start_page: ROOT::welcome.adoc
 
 content:

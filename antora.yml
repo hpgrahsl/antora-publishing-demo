@@ -1,0 +1,6 @@
+name: ROOT
+title: Decodable Labs
+version: ~
+start_page: welcome.adoc
+nav:
+  - modules/ROOT/nav.adoc

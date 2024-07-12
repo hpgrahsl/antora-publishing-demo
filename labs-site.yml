@@ -1,0 +1,30 @@
+runtime:
+  cache_dir: ./.cache/antora
+
+output:
+  dir: ./gh-pages
+
+site:
+  title: Decodable Labs
+  url: https://.github.io/hpgrahsl/
+  start_page: ROOT::welcome.adoc
+
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: .
+
+asciidoc:
+  attributes:
+    source-highlighter: ~
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+
+antora:
+  extensions:
+  - '@antora/lunr-extension'

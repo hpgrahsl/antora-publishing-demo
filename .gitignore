@@ -1,0 +1,5 @@
+.DS_Store
+.vscode/
+.cache/
+gh-pages/
+node_modules/

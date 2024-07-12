@@ -1,0 +1,3 @@
+* xref:welcome.adoc[Welcome]
+* xref:foo/blah.adoc[Foo & Blah]
+
